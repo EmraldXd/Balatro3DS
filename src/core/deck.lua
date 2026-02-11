@@ -21,6 +21,7 @@ function deck.createDeck()
 end
 
 function deck.shuffleDeck(deck)
+    math.randomseed(os.time())
     -- shuffle the deck
     for i = #deck, 2, -1 do
         local j = math.random(1, i)
