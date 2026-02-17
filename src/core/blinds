@@ -1,0 +1,16 @@
+local BASE_VALUES {
+    300,
+    800, 
+    2000,
+    5000.
+    11000,
+    20000,
+    35000,
+    50000
+}
+
+local BLIND_MULTIPLIERS = {
+    small = 1,
+    big = 1.5,
+    boss = 2
+}
